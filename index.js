@@ -39,7 +39,7 @@ app.post('/short-url', (req,res) => {
     
     return res.json({
         success: true,
-        message:`http://localhost:5001/${shortUrl}`
+        message:`https://main--gilded-sherbet-7dbe51.netlify.app/${shortUrl}`
     })
 })
 
